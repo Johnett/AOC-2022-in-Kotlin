@@ -29,11 +29,11 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("day1/Day01_part_1_test")
+    val testInput = readInput("day1/Day01_test")
     check(part1(testInput) == 24000)
     check(part2(testInput) == 45000)
 
-    val input = readInput("day1/Day01_part_1")
+    val input = readInput("day1/Day01")
     println(part1(input))
     println(part2(input))
 }
